@@ -1,19 +1,19 @@
-# 🚗 API de Coleção de Carros
+#  API de Coleção de Carros
 
 API RESTful desenvolvida com Node.js, Express e MongoDB para gerenciar uma coleção de carros e seus colecionadores.
 
-## 📌 Sobre o projeto
+##  Sobre o projeto
 
 Este projeto permite cadastrar amigos colecionadores e os carros que cada um possui. É possível criar, listar, buscar, atualizar e deletar tanto os amigos quanto os carros, com suporte a filtros e deleção lógica.
 
-## 🛠️ Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 - Node.js
 - Express
 - MongoDB + Mongoose
 - config
 
-## 📁 Estrutura de pastas
+##  Estrutura de pastas
 
 ```
 ├── config/
@@ -38,8 +38,8 @@ Este projeto permite cadastrar amigos colecionadores e os carros que cada um pos
 
 **1. Clone o repositório**
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/lwamoto/car-collection-api.git
+cd car-collection-api
 ```
 
 **2. Instale as dependências**
@@ -63,7 +63,7 @@ node index.js
 
 O servidor vai rodar em `http://localhost:8080`
 
-## 🔗 Endpoints
+##  Endpoints
 
 ### Pessoas (Colecionadores)
 
@@ -87,7 +87,7 @@ O servidor vai rodar em `http://localhost:8080`
 | PUT | /api/cars/:id | Atualiza carro |
 | DELETE | /api/cars/:id | Deleção lógica (isActive: false) |
 
-## 📝 Exemplo de cadastro
+##  Exemplo de cadastro
 
 **Cadastrar pessoa**
 ```json
